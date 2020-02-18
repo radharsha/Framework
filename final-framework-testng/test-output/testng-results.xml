@@ -1,89 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27358" started-at="2018-12-18T18:16:26Z" finished-at="2018-12-18T18:16:53Z">
+  <suite started-at="2020-02-18T16:44:06 IST" name="Default suite" finished-at="2020-02-18T16:45:26 IST" duration-ms="79828">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27358" started-at="2018-12-18T18:16:26Z" finished-at="2018-12-18T18:16:53Z">
-      <class name="com.training.regression.tests.LoginExcelTest">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.LoginExcelTest@8bd1b6a]" name="setUpBeforeClass" is-config="true" duration-ms="15" started-at="2018-12-18T23:46:26Z" finished-at="2018-12-18T23:46:26Z">
+    <test started-at="2020-02-18T16:44:06 IST" name="Default test" finished-at="2020-02-18T16:45:26 IST" duration-ms="79828">
+      <class name="com.training.sanity.tests.DeleteRegionTest">
+        <test-method is-config="true" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.DeleteRegionTest@15b204a1]" started-at="2020-02-18T16:44:06 IST" name="setUpBeforeClass" finished-at="2020-02-18T16:44:47 IST" duration-ms="41264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTest@8bd1b6a]" name="setUp" is-config="true" duration-ms="5796" started-at="2018-12-18T23:46:27Z" finished-at="2018-12-18T23:46:32Z">
+        <test-method signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.DeleteRegionTest@15b204a1]" started-at="2020-02-18T16:44:47 IST" name="validLoginTest" finished-at="2020-02-18T16:44:53 IST" duration-ms="5441" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@8bd1b6a]" name="loginDBTest" duration-ms="2700" started-at="2018-12-18T23:46:32Z" data-provider="excel-inputs" finished-at="2018-12-18T23:46:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[hello]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginDBTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTest@8bd1b6a]" name="tearDown" is-config="true" duration-ms="788" started-at="2018-12-18T23:46:35Z" finished-at="2018-12-18T23:46:36Z">
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.DeleteRegionTest@15b204a1]" started-at="2020-02-18T16:44:53 IST" name="tearDown" finished-at="2020-02-18T16:44:54 IST" duration-ms="1341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTest@8bd1b6a]" name="setUp" is-config="true" duration-ms="4885" started-at="2018-12-18T23:46:36Z" finished-at="2018-12-18T23:46:41Z">
+        <test-method signature="clickPropBtn()[pri:1, instance:com.training.sanity.tests.DeleteRegionTest@15b204a1]" started-at="2020-02-18T16:44:54 IST" name="clickPropBtn" finished-at="2020-02-18T16:45:05 IST" duration-ms="10538" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@8bd1b6a]" name="loginDBTest" duration-ms="3104" started-at="2018-12-18T23:46:41Z" data-provider="excel-inputs" finished-at="2018-12-18T23:46:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[naveen]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[testing@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginDBTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTest@8bd1b6a]" name="tearDown" is-config="true" duration-ms="767" started-at="2018-12-18T23:46:44Z" finished-at="2018-12-18T23:46:45Z">
+        </test-method> <!-- clickPropBtn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.DeleteRegionTest@15b204a1]" started-at="2020-02-18T16:45:05 IST" name="tearDown" finished-at="2020-02-18T16:45:06 IST" duration-ms="1160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTest@8bd1b6a]" name="setUp" is-config="true" duration-ms="5306" started-at="2018-12-18T23:46:45Z" finished-at="2018-12-18T23:46:50Z">
+        <test-method signature="clickRegionsBtn()[pri:2, instance:com.training.sanity.tests.DeleteRegionTest@15b204a1]" started-at="2020-02-18T16:45:06 IST" name="clickRegionsBtn" finished-at="2020-02-18T16:45:15 IST" duration-ms="8906" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@8bd1b6a]" name="loginDBTest" duration-ms="2595" started-at="2018-12-18T23:46:50Z" data-provider="excel-inputs" finished-at="2018-12-18T23:46:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[delete]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[delete]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginDBTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTest@8bd1b6a]" name="tearDown" is-config="true" duration-ms="795" started-at="2018-12-18T23:46:53Z" finished-at="2018-12-18T23:46:53Z">
+        </test-method> <!-- clickRegionsBtn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.DeleteRegionTest@15b204a1]" started-at="2020-02-18T16:45:15 IST" name="tearDown" finished-at="2020-02-18T16:45:16 IST" duration-ms="1117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.regression.tests.LoginExcelTest -->
+        <test-method signature="searchSelectRegion()[pri:3, instance:com.training.sanity.tests.DeleteRegionTest@15b204a1]" started-at="2020-02-18T16:45:16 IST" name="searchSelectRegion" finished-at="2020-02-18T16:45:19 IST" duration-ms="3110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSelectRegion -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.DeleteRegionTest@15b204a1]" started-at="2020-02-18T16:45:19 IST" name="tearDown" finished-at="2020-02-18T16:45:20 IST" duration-ms="1125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="deleteRegion()[pri:4, instance:com.training.sanity.tests.DeleteRegionTest@15b204a1]" started-at="2020-02-18T16:45:20 IST" name="deleteRegion" finished-at="2020-02-18T16:45:25 IST" duration-ms="4676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRegion -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.DeleteRegionTest@15b204a1]" started-at="2020-02-18T16:45:25 IST" name="tearDown" finished-at="2020-02-18T16:45:26 IST" duration-ms="1106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.DeleteRegionTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
